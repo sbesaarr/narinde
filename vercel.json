@@ -1,0 +1,8 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/clothing", "destination": "/clothing/index.html" },
+    { "source": "/clothing/", "destination": "/clothing/index.html" }
+  ]
+}
