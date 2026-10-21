@@ -1,4 +1,4 @@
-const http = require('http');
+﻿const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
@@ -17,13 +17,24 @@ const MIME_TYPES = {
 };
 
 const server = http.createServer((req, res) => {
-  let filePath = path.join(__dirname, req.url === '/' ? 'index.html' : req.url.split('?')[0]);
-  
+  let cleanUrl = req.url.split('?')[0];
+  let filePath = path.join(__dirname, cleanUrl);
+
+  // If root
+  if (cleanUrl === '/' || cleanUrl === '') {
+    filePath = path.join(__dirname, 'index.html');
+  }
+
   // Prevent directory traversal
   if (!filePath.startsWith(__dirname)) {
     res.writeHead(403);
     res.end('Forbidden');
     return;
+  }
+
+  // If path is a directory, look for index.html
+  if (fs.existsSync(filePath) && fs.statSync(filePath).isDirectory()) {
+    filePath = path.join(filePath, 'index.html');
   }
 
   fs.stat(filePath, (err, stats) => {
@@ -42,4 +53,5 @@ const server = http.createServer((req, res) => {
 
 server.listen(PORT, '0.0.0.0', () => {
   console.log(`Narinde Group server running at http://localhost:${PORT}`);
+  console.log(`Narinde Clothing Studio available at http://localhost:${PORT}/clothing`);
 });

@@ -1,55 +1,70 @@
-﻿# Narinde Group - Landing Page
+﻿# Narinde - Official Web Portal & Clothing Studio
 
-Website profil & landing page resmi untuk **Narinde Group**, ekosistem bisnis terpadu yang bergerak di tiga pilar utama:
-1. **Narinde Apparel** - Konveksi terpercaya, custom merchandise, dan seragam korporat berkualitas tinggi.
-2. **Narinde Digital** - Solusi software kustom, otomatisasi proses bisnis, dan transformasi digital.
-3. **Narinde Farm** - Komoditas pertanian segar langsung dari kebun, agribisnis berkelanjutan, dan kemitraan pasokan.
+Repository resmi ekosistem digital **Narinde Group**, memuat website profil korporasi serta landing page khusus untuk divisi pakaian & konveksi (**Narinde Clothing Studio**).
 
 ---
 
-## 🌟 Fitur Utama
+## 📂 Struktur Multi-Page Repository
 
-- **Modern & Responsive UI**: Tampilan responsif optimal di desktop, tablet, maupun smartphone.
-- **Katalog 3 Sektor Usaha**:
-  - Showcase produk pakaian/konveksi dengan kalkulator estimasi pesanan.
-  - Paket & layanan teknologi digital.
-  - Komoditas hasil tani segar dan formulir kemitraan.
-- **Interactive Order Estimator**: Estimasi biaya instan untuk pemesanan pakaian kustom.
-- **Inquiry & WhatsApp Integration**: Terhubung langsung ke WhatsApp tim Narinde.
-- **FAQ Accordion**: Panduan dan jawaban atas pertanyaan yang sering diajukan.
+```
+narinde/
+├── clothing/                # 🧵 WEBSITE KHUSUS NARINDE CLOTHING STUDIO
+│   ├── assets/              # Foto lookbook, studio rack, & macro kain
+│   │   ├── fabric-detail.jpg
+│   │   ├── hero-lookbook.jpg
+│   │   └── studio-rack.jpg
+│   ├── app.js               # Filter katalog, size chart, & FAQ
+│   ├── index.html           # Landing page Narinde Clothing Studio
+│   └── style.css            # Styling Minimalist & Clean Studio
+│
+├── assets/                  # 🏢 Asset Landing Page Narinde Group
+│   ├── clothing-showcase.jpg
+│   ├── digital-showcase.jpg
+│   ├── farm-showcase.jpg
+│   └── hero-banner.jpg
+├── app.js                   # Interaktivitas portal Group
+├── index.html               # 🌐 Halaman Utama Narinde Group Portal
+├── server.cjs               # Server HTTP lokal (mendukung root & /clothing)
+├── style.css                # Styling portal Group
+└── README.md
+```
+
+---
+
+## 🌐 Navigasi & Halaman
+
+| Halaman | Rute Lokal | Keterangan |
+| :--- | :--- | :--- |
+| **Narinde Group Portal** | `http://localhost:5180/` | Profil korporat 3 pilar: Apparel, Teknologi Digital (AppSheet), dan Agribisnis. |
+| **Narinde Clothing Studio** | `http://localhost:5180/clothing` | Landing page spesialis konveksi premium: Lookbook, katalog tanpa harga ritel (B2B direct quote), spesifikasi kain, size guide, dan alur kerja. |
 
 ---
 
 ## 🚀 Cara Menjalankan Secara Lokal
 
-### Menggunakan Node.js
-Proyek ini dilengkapi web server ringan bawaan (`server.cjs`):
-
 ```bash
+# Jalankan web server Node.js
 node server.cjs
 ```
-Buka browser di: `http://localhost:5180`
-
-### Menggunakan Browser Langsung
-Anda juga dapat langsung membuka file `index.html` dengan peramban web apa pun atau ekstensi Live Server.
+- Buka Group Portal: `http://localhost:5180`
+- Buka Clothing Studio: `http://localhost:5180/clothing`
 
 ---
 
-## 📂 Struktur Direktori
+## ☁️ Panduan Deployment
 
-```
-narinde/
-├── assets/                  # Banner & showcase images
-│   ├── clothing-showcase.jpg
-│   ├── digital-showcase.jpg
-│   ├── farm-showcase.jpg
-│   └── hero-banner.jpg
-├── app.js                   # Interaktivitas, kalkulator, & navigasi
-├── index.html               # Halaman utama landing page
-├── server.cjs               # Server lokal Node.js
-├── style.css                # Styling CSS & responsivitas
-└── README.md
-```
+### 1. GitHub Pages (Otomatis & Gratis)
+1. Buka repositori di GitHub ➡️ **Settings** ➡️ **Pages**.
+2. Pada bagian **Build and deployment**, pilih Source: `Deploy from a branch`.
+3. Pilih Branch `main` dan folder `/(root)`.
+4. Klik **Save**.
+5. Website Anda otomatis aktif di:
+   - Portal Utama: `https://sbesaarr.github.io/narinde/`
+   - Clothing Studio: `https://sbesaarr.github.io/narinde/clothing/`
+
+### 2. Vercel / Netlify / Cloudflare Pages
+- Cukup hubungkan repository `sbesaarr/narinde` dengan default settings (Framework: *Other* / Static).
+- Rute `/` akan membuka Group Portal dan `/clothing` akan membuka Clothing Studio secara otomatis.
 
 ---
 
