@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Narinde Group | Solusi Terpadu Apparel, Teknologi Digital, & Agribisnis</title>
+  
+  <!-- SEO & OpenGraph Meta Tags -->
+  <meta name="description" content="Narinde Group - Perusahaan terpadu yang bergerak di bidang manufaktur konveksi & garmen (Narinde Clothing), layanan teknologi informasi & cloud maintenance (Narinde Digital), serta komoditas agribisnis hasil tani berkualitas (Narinde Farm).">
+  <meta name="keywords" content="Narinde Group, Narinde Clothing, Narinde Digital, Narinde Farm, Konveksi Bandung, Sablon Kaos, Website Development, Cloud Support, Hasil Tani Organik, Hidroponik">
+  <meta name="author" content="Narinde Group">
+  <meta property="og:title" content="Narinde Group | Profil Perusahaan & Layanan Terintegrasi">
+  <meta property="og:description" content="Standar produksi pakaian kustom terpercaya, solusi teknologi digital handal, dan komoditas hasil tani segar dalam satu ekosistem profesional.">
+  <meta property="og:image" content="assets/hero-banner.jpg">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar-container">
+      <a href="#hero" class="brand-logo" id="nav-brand">
+        <div class="brand-icon">N</div>
+        <span>NARINDE <span>GROUP</span></span>
+      </a>
+
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#hero" class="nav-link active">Beranda</a></li>
+          <li><a href="#pillars" class="nav-link">Divisi Usaha</a></li>
+          <li><a href="#section-clothing" class="nav-link">Apparel</a></li>
+          <li><a href="#section-digital" class="nav-link">Teknologi</a></li>
+          <li><a href="#section-farm" class="nav-link">Agribisnis</a></li>
+          <li><a href="#why-us" class="nav-link">Keunggulan</a></li>
+          <li><a href="#faq" class="nav-link">FAQ</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Toggle Theme" title="Ganti Tema Tampilan">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button class="btn btn-primary btn-open-inquiry" data-division="all" id="btnNavInquiry">
+          <span>Hubungi Kami</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+        </button>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Menu Mobile">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= HERO SECTION ================= -->
+  <section class="hero" id="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-badge-wrap">
+          <span class="badge badge-primary">
+            Profil Perusahaan & Layanan Terpadu
+          </span>
+        </div>
+        <h1 class="hero-title">
+          Solusi Terintegrasi: <span>Apparel, Teknologi Digital,</span> & Agribisnis
+        </h1>
+        <p class="hero-desc">
+          Narinde Group berkomitmen memberikan layanan profesional terpercaya bagi institusi, perusahaan, sekolah, komunitas, dan mitra bisnis melalui pengawasan mutu ketat, transparansi biaya, dan ketepatan waktu.
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="#pillars" class="btn btn-primary" id="btnHeroExplore">
+            <span>Pelajari Divisi Usaha</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </a>
+          <button class="btn btn-outline btn-open-inquiry" data-division="all" id="btnHeroConsult">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            <span>Konsultasi Layanan Resmi</span>
+          </button>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <h4>Standar Mutu</h4>
+            <p>Quality control bertahap di setiap divisi</p>
+          </div>
+          <div class="stat-item">
+            <h4>Transparan</h4>
+            <p>Rincian biaya & spesifikasi jelas</p>
+          </div>
+          <div class="stat-item">
+            <h4>Kemitraan B2B</h4>
+            <p>Kontrak korporasi & ritel terpercaya</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-media">
+        <div class="hero-image-card">
+          <img src="assets/hero-banner.jpg" alt="Narinde Group Unified Enterprise" loading="eager" id="heroBannerImg">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 3 PILLARS OVERVIEW ================= -->
+  <section class="section" id="pillars">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">
+          <span class="badge badge-primary">Portofolio Layanan</span>
+        </div>
+        <h2 class="section-title">Tiga Divisi Utama Narinde Group</h2>
+        <p class="section-desc">
+          Setiap unit usaha kami beroperasi dengan dedikasi tinggi, mengedepankan kualitas hasil dan kepuasan jangka panjang seluruh mitra.
+        </p>
+      </div>
+
+      <div class="pillars-grid">
+        <!-- 1. Clothing -->
+        <div class="pillar-card card-clothing">
+          <div class="pillar-header">
+            <div class="pillar-icon-box">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.38 3.46L16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.5a2 2 0 0 0 1.63 1.66L7 11.3V20a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-8.7l2.51-.45a2 2 0 0 0 1.63-1.66l.58-3.5a2 2 0 0 0-1.34-2.23z"/></svg>
+            </div>
+            <span class="badge badge-clothing">Divisi Apparel</span>
+          </div>
+          <h3 class="pillar-title">Narinde Clothing</h3>
+          <p class="pillar-tagline">Manufaktur Seragam, Kaos, & Merchandise</p>
+          <p class="pillar-desc">
+            Melayani produksi pakaian kustom dengan harga terjangkau mulai dari Rp 50.000/pcs untuk kebutuhan korporat, instansi pemerintah, sekolah, dan komunitas. Menggunakan bahan katun pilihan dengan teknik sablon dan bordir presisi tinggi.
+          </p>
+          <ul class="pillar-highlights">
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Harga terjangkau mulai Rp 50.000 / pcs</span>
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Bahan Cotton Combed 30s/24s & Heavyweight</span>
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Sablon Manual Plastisol, DTF, & Bordir Komputer</span>
+            </li>
+          </ul>
+          <a href="#section-clothing" class="btn btn-clothing">
+            <span>Lihat Paket Kaos (Mulai Rp 50rb)</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+          </a>
+        </div>
+
+        <!-- 2. Digital -->
+        <div class="pillar-card card-digital">
+          <div class="pillar-header">
+            <div class="pillar-icon-box">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <span class="badge badge-digital">Divisi Teknologi</span>
+          </div>
+          <h3 class="pillar-title">Narinde Digital</h3>
+          <p class="pillar-tagline">AppSheet, Sistem Spreadsheet & Solusi Cloud</p>
+          <p class="pillar-desc">
+            Mitra pengembangan sistem dan digitalisasi operasional bisnis. Melayani pembuatan aplikasi mobile/web AppSheet kustom, sistem operasional terintegrasi Google Sheets/Excel, website profil profesional, dan pemeliharaan server cloud 24/7.
+          </p>
+          <ul class="pillar-highlights">
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Aplikasi AppSheet (Mobile Android/iOS & Web)</span>
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Sistem Manajemen Berbasis Google Sheets & Otomasi</span>
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Website Korporat & Pemeliharaan Server Cloud VPS</span>
+            </li>
+          </ul>
+          <a href="#section-digital" class="btn btn-digital">
+            <span>Lihat Paket Layanan</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+          </a>
+        </div>
+
+        <!-- 3. Farm -->
+        <div class="pillar-card card-farm">
+          <div class="pillar-header">
+            <div class="pillar-icon-box">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 0 0-9.95 9h11.95L12 2z"/><path d="M2.05 13a10 10 0 0 0 19.9 0H2.05z"/></svg>
+            </div>
+            <span class="badge badge-farm">Divisi Agribisnis (Segera Hadir)</span>
+          </div>
+          <h3 class="pillar-title">Narinde Farm</h3>
+          <p class="pillar-tagline">Hortikultura Hidroponik & Suplai Pangan (Segera Hadir)</p>
+          <p class="pillar-desc">
+            Unit usaha pertanian modern ramah lingkungan dengan sistem greenhouse. Saat ini sedang dalam tahap persiapan fasilitas budidaya dan segera hadir untuk melayani kebutuhan pasokan sayuran segar bagi restoran, katering, dan ritel.
+          </p>
+          <ul class="pillar-highlights">
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Fasilitas greenhouse modern dalam tahap persiapan</span>
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Segera membuka kontrak suplai restoran & katering</span>
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Budidaya sayuran higienis bebas pestisida kimia</span>
+            </li>
+          </ul>
+          <a href="#section-farm" class="btn btn-farm">
+            <span>Info Kerjasama (Segera Hadir)</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= DIVISION TABS ================= -->
+  <div class="container">
+    <div class="tabs-control">
+      <button class="tab-btn active" data-target="all">
+        Semua Divisi
+      </button>
+      <button class="tab-btn" data-target="clothing">
+        Divisi Apparel
+      </button>
+      <button class="tab-btn" data-target="digital">
+        Divisi Teknologi
+      </button>
+      <button class="tab-btn" data-target="farm">
+        Divisi Agribisnis
+      </button>
+    </div>
+  </div>
+
+  <!-- ================= 1. DETAIL NARINDE CLOTHING ================= -->
+  <section class="division-section" id="section-clothing">
+    <div class="container">
+      <div class="division-grid">
+        <div class="division-visual">
+          <img src="assets/clothing-showcase.jpg" alt="Workshop Produksi Narinde Clothing" id="clothingShowcaseImg">
+        </div>
+
+        <div class="division-text">
+          <span class="badge badge-clothing">Divisi Konveksi & Manufaktur Apparel</span>
+          <h2>Produksi Seragam & Pakaian Kustom dengan Standar Industri Teruji</h2>
+          <p>
+            Narinde Clothing melayani pengadaan seragam kerja, pakaian komunitas, seragam sekolah, merchandise event, dan lini pakaian brand independen. Seluruh proses jahitan, pemotongan bahan, dan cetak sablon dikerjakan oleh tenaga terampil dengan pengawasan kualitas berkala.
+          </p>
+
+          <div class="feature-list">
+            <div class="feature-box">
+              <h5>Material Pilihan Bersertifikat</h5>
+              <p>Pilihan katun murni Cotton Combed 30s, 24s, dan Heavyweight yang sejuk, menyerap keringat, dan tahan lama.</p>
+            </div>
+            <div class="feature-box">
+              <h5>Presisi Sablon & Bordir</h5>
+              <p>Menggunakan tinta sablon plastisol import yang solid serta teknologi bordir komputer rapi.</p>
+            </div>
+            <div class="feature-box">
+              <h5>Perlengkapan Merchandise</h5>
+              <p>Tersedia layanan totebag kanvas kustom, woven hangtag, label brand, dan kemasan ziplock rapi.</p>
+            </div>
+            <div class="feature-box">
+              <h5>Ketepatan Jadwal Produksi</h5>
+              <p>Sistem jadwal kerja terstruktur memastikan pesanan selesai sesuai tenggat waktu yang disepakati.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CLOTHING PACKAGES (STARTING FROM 50RB) -->
+      <div style="text-align: center; max-width: 680px; margin: 3rem auto 2rem;">
+        <span class="badge badge-clothing">Katalog & Paket Harga</span>
+        <h3 style="font-size: 1.85rem; margin: 0.65rem 0 0.5rem;">Pilihan Paket Produksi Narinde Clothing</h3>
+        <p style="color: var(--text-muted); font-size: 0.95rem;">
+          Harga terjangkau mulai dari Rp 50.000/pcs dengan standar bahan distro teruji, jahitan rapi, dan garansi mutu untuk setiap pesanan Anda.
+        </p>
+      </div>
+
+      <div class="clothing-grid">
+        <!-- Paket 1: Kaos Sablon Acara & Komunitas (MULAI 50RB) -->
+        <div class="clothing-card popular">
+          <div class="clothing-tag">Terpopuler</div>
+          <span class="badge badge-clothing">Kaos Event & Komunitas</span>
+          <h4 style="font-size: 1.25rem; margin-top: 0.5rem;">Kaos Sablon Combed 30s</h4>
+          <p style="font-size: 0.88rem; color: var(--text-muted);">Pilihan utama untuk kaos kelas, panitia acara, gathering kantor, seragam reuni, dan merchandise komunitas.</p>
+          <div class="clothing-price">Mulai Rp 50.000</div>
+          <span style="font-size: 0.8rem; color: var(--text-muted);">/ pcs (Min. order 12 pcs)</span>
+          <ul>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> 100% Katun Combed 30s Standar Distro (Adem & Lembut)</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Sablon Presisi (Plastisol Manual Solid / DTF Full Color)</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Gratis Konsultasi Desain & Penataan Mock-up</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Bonus Stiker Cutting Eksklusif untuk Setiap Kaos</li>
+          </ul>
+          <button class="btn btn-clothing btn-open-inquiry" data-division="clothing" style="width: 100%;">
+            <span>Pesan Kaos (Mulai Rp 50rb)</span>
+          </button>
+        </div>
+
+        <!-- Paket 2: Polo Shirt & Kemeja Seragam Formal -->
+        <div class="clothing-card">
+          <span class="badge badge-clothing">Seragam Kerja & Instansi</span>
+          <h4 style="font-size: 1.25rem; margin-top: 0.5rem;">Polo Shirt & Kemeja Seragam</h4>
+          <p style="font-size: 0.88rem; color: var(--text-muted);">Tampilan formal, rapi, dan berwibawa untuk seragam staf perusahaan, dinas kantor, hotel, dan katering.</p>
+          <div class="clothing-price">Mulai Rp 75.000</div>
+          <span style="font-size: 0.8rem; color: var(--text-muted);">/ pcs (Min. order 12 pcs)</span>
+          <ul>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Bahan Lacoste Pique CVC Premium / Drill Formal</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Bordir Komputer Presisi & Padat (Logo Dada/Punggung)</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Pilihan Variasi Kerah & Manset Berwarna Elegan</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Pengemasan Satuan Rapi Siap Distribusi</li>
+          </ul>
+          <button class="btn btn-outline btn-open-inquiry" data-division="clothing" style="width: 100%;">
+            <span>Konsultasi Seragam Formal</span>
+          </button>
+        </div>
+
+        <!-- Paket 3: Outerwear, Hoodie & Totebag Kanvas -->
+        <div class="clothing-card">
+          <span class="badge badge-clothing">Merchandise & Outerwear</span>
+          <h4 style="font-size: 1.25rem; margin-top: 0.5rem;">Jaket, Hoodie & Totebag Kanvas</h4>
+          <p style="font-size: 0.88rem; color: var(--text-muted);">Paket merchandise eksklusif untuk apparel brand distro independen, jaket angkatan, dan suvenir seminar.</p>
+          <div class="clothing-price">Mulai Rp 95.000</div>
+          <span style="font-size: 0.8rem; color: var(--text-muted);">/ pcs (Totebag mulai Rp 15.000)</span>
+          <ul>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Bahan Cotton Fleece Tebal & Hangat / Kanvas Tebal</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Jahitan Rantai Kuat Standar Ekspor</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Opsi Label Woven Brand & Custom Hangtag</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Pilihan Totebag Kanvas Sablon untuk Suvenir Event</li>
+          </ul>
+          <button class="btn btn-outline btn-open-inquiry" data-division="clothing" style="width: 100%;">
+            <span>Konsultasi Merchandise</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 2. DETAIL NARINDE DIGITAL ================= -->
+  <section class="division-section" id="section-digital">
+    <div class="container">
+      <div class="division-grid reverse">
+        <div class="division-visual">
+          <img src="assets/digital-showcase.jpg" alt="Infrastruktur dan Rekayasa Perangkat Lunak Narinde Digital" id="digitalShowcaseImg">
+        </div>
+
+        <div class="division-text">
+          <span class="badge badge-digital">Divisi Teknologi Informasi & Cloud</span>
+          <h2>Aplikasi AppSheet, Sistem Berbasis Spreadsheet, & Solusi Cloud</h2>
+          <p>
+            Narinde Digital membantu akselerasi efisiensi operasional usaha melalui pembuatan aplikasi AppSheet kustom, sistem pencatatan terpadu berbasis Google Sheets/Excel terotomasi, website profil korporat, serta pemeliharaan server cloud VPS dengan jaminan ketersediaan sistem.
+          </p>
+
+          <div class="feature-list">
+            <div class="feature-box">
+              <h5>Aplikasi Mobile & Web AppSheet</h5>
+              <p>Membangun aplikasi operasional siap pakai untuk tim lapangan di Android, iPhone, dan Browser tanpa biaya server mahal.</p>
+            </div>
+            <div class="feature-box">
+              <h5>Sistem Berbasis Spreadsheet Terpadu</h5>
+              <p>Integrasi Google Sheets untuk inventaris stok, absensi, penagihan, sales order, dan laporan otomatis.</p>
+            </div>
+            <div class="feature-box">
+              <h5>Website Profesional & Cepat</h5>
+              <p>Desain korporat elegan, waktu muat halaman optimal, dan ramah mesin pencari (SEO).</p>
+            </div>
+            <div class="feature-box">
+              <h5>Pemeliharaan Server & Cloud VPS</h5>
+              <p>Monitoring berkala, pembaruan keamanan, pencadangan basis data, dan konfigurasi SSL.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- DIGITAL PACKAGES -->
+      <div class="digital-grid">
+        <div class="digital-card">
+          <span class="badge badge-digital">Paket Web</span>
+          <h4 style="font-size: 1.25rem; margin-top: 0.5rem;">Website Profil & Landing Page</h4>
+          <p style="font-size: 0.88rem; color: var(--text-muted);">Solusi representasi digital resmi bagi profil perusahaan, produk, atau jasa profesional.</p>
+          <div class="digital-price">Rp 1.500.000</div>
+          <span style="font-size: 0.8rem; color: var(--text-muted);">Investasi satu kali</span>
+          <ul>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Desain Korporat Elegan & Responsif</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Integrasi Kontak WhatsApp & Form Pengajuan</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Optimasi Kecepatan & SEO Standar Google</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Termasuk Domain .com & Cloud Hosting 1 Tahun</li>
+          </ul>
+          <button class="btn btn-outline btn-open-inquiry" data-division="digital" style="width: 100%;">
+            <span>Konsultasi Paket Ini</span>
+          </button>
+        </div>
+
+        <div class="digital-card popular">
+          <div class="digital-tag">Solusi Terpopuler</div>
+          <span class="badge badge-digital">AppSheet & Spreadsheet</span>
+          <h4 style="font-size: 1.25rem; margin-top: 0.5rem;">Aplikasi AppSheet & Sistem Spreadsheet</h4>
+          <p style="font-size: 0.88rem; color: var(--text-muted);">Digitalisasi alur kerja usaha menggunakan Google AppSheet dan spreadsheet untuk pencatatan stok, penagihan, absensi, & order.</p>
+          <div class="digital-price">Mulai Rp 500.000</div>
+          <span style="font-size: 0.8rem; color: var(--text-muted);">Sangat terjangkau & disesuaikan modul</span>
+          <ul>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Aplikasi Mobile (Android & iOS) dan Web via AppSheet</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Basis Data Terhubung Langsung ke Google Sheets / Excel</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Fitur Barcode/QR, Tanda Tangan Digital, & PDF Invoice</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Hak Akses Pengguna Bertingkat (Admin, Supervisor, Staf)</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Pendampingan & Pelatihan Penggunaan Staf Sampai Siap</li>
+          </ul>
+          <button class="btn btn-digital btn-open-inquiry" data-division="digital" style="width: 100%;">
+            <span>Konsultasi AppSheet (Mulai Rp 500rb)</span>
+          </button>
+        </div>
+
+        <div class="digital-card">
+          <span class="badge badge-digital">Paket Maintenance</span>
+          <h4 style="font-size: 1.25rem; margin-top: 0.5rem;">Pemeliharaan Server & Cloud Hosting</h4>
+          <p style="font-size: 0.88rem; color: var(--text-muted);">Dukungan operasional rutin untuk menjaga kestabilan dan keamanan infrastruktur IT klien.</p>
+          <div class="digital-price">Mulai Rp 150.000</div>
+          <span style="font-size: 0.8rem; color: var(--text-muted);">Per bulan / per server (Contoh: PT Diesel)</span>
+          <ul>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Pemantauan Uptime Server Berkala</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Pencadangan (Backup) Data Terjadwal</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Pembaruan Patch Keamanan & Pembaruan SSL</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Penanganan Masalah Sistem dengan Tanggapan Cepat</li>
+          </ul>
+          <button class="btn btn-outline btn-open-inquiry" data-division="digital" style="width: 100%;">
+            <span>Langganan Pemeliharaan</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 3. DETAIL NARINDE FARM ================= -->
+  <section class="division-section" id="section-farm">
+    <div class="container">
+      <div class="division-grid">
+        <div class="division-visual">
+          <img src="assets/farm-showcase.jpg" alt="Instalasi Rumah Kaca Hidroponik Narinde Farm" id="farmShowcaseImg">
+        </div>
+
+        <div class="division-text">
+          <span class="badge badge-farm">Divisi Agribisnis & Hortikultura (Segera Hadir)</span>
+          <h2>Budidaya Hidroponik Ramah Lingkungan & Pasokan Pangan Segar (Segera Hadir)</h2>
+          <p>
+            Narinde Farm sedang mempersiapkan instalasi pertanian greenhouse modern terkontrol untuk menghasilkan komoditas hortikultura yang bersih, higienis, dan terstandarisasi. Saat ini kami belum mulai menjual secara komersial dan berfokus pada persiapan bibit serta fasilitas tanam. Kami membuka penjajakan kerja sama awal bagi restoran, katering, dan hotel yang ingin mendaftar ke dalam daftar tunggu (waitlist) pasokan panen perdana.
+          </p>
+
+          <div class="feature-list">
+            <div class="feature-box">
+              <h5>Bebas Residu Kimia Berbahaya</h5>
+              <p>Sayuran diproduksi dengan nutrisi terukur dan sistem penanganan higienis tanpa pestisida kimia sintetis.</p>
+            </div>
+            <div class="feature-box">
+              <h5>Fasilitas Greenhouse Modern</h5>
+              <p>Instalasi hidroponik terlindung dari cuaca ekstrem dan hama luar untuk menjaga mutu hasil panen.</p>
+            </div>
+            <div class="feature-box">
+              <h5>Penjajakan Kontrak Suplai</h5>
+              <p>Membuka komunikasi awal bagi pelaku usaha kuliner yang ingin mengamankan kontinuitas pasokan.</p>
+            </div>
+            <div class="feature-box">
+              <h5>Penyediaan Sarana Tani</h5>
+              <p>Menyiapkan bibit tanaman hortikultura unggul dan pupuk organik matang penyubur media tanam.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FARM CATALOG -->
+      <div class="farm-grid">
+        <div class="farm-product-card">
+          <div class="farm-badge-row">
+            <span class="badge badge-farm">Komoditas Segar</span>
+            <span style="color: #b45309; font-weight: 700; font-size: 0.85rem;">Segera Hadir</span>
+          </div>
+          <h4 class="farm-title">Sayuran Segar Hidroponik</h4>
+          <p class="farm-desc">Selada romaine, green butterhead, kale, pakcoy, dan bayam hidroponik kualitas pilihan. Sedang dalam masa persiapan siklus tanam perdana.</p>
+          <div style="margin-bottom: 1.5rem;">
+            <span style="font-size: 1.35rem; font-weight: 800; color: var(--text-primary);">Segera Hadir</span>
+            <span style="font-size: 0.82rem; color: var(--text-muted);"> / Persiapan Panen Perdana</span>
+          </div>
+          <button class="btn btn-farm btn-open-inquiry" data-division="farm" style="width: 100%;">
+            <span>Daftar Minat Panen Perdana</span>
+          </button>
+        </div>
+
+        <div class="farm-product-card">
+          <div class="farm-badge-row">
+            <span class="badge badge-farm">Sarana Produksi</span>
+            <span style="color: #b45309; font-weight: 700; font-size: 0.85rem;">Segera Hadir</span>
+          </div>
+          <h4 class="farm-title">Bibit Unggul & Pupuk Kompos</h4>
+          <p class="farm-desc">Bibit tanaman pangan teruji dengan daya berkecambah optimal, didukung pupuk organik hasil fermentasi matang penyubur tanah.</p>
+          <div style="margin-bottom: 1.5rem;">
+            <span style="font-size: 1.35rem; font-weight: 800; color: var(--text-primary);">Segera Hadir</span>
+            <span style="font-size: 0.82rem; color: var(--text-muted);"> / Persiapan Stok</span>
+          </div>
+          <button class="btn btn-outline btn-open-inquiry" data-division="farm" style="width: 100%;">
+            <span>Info Ketersediaan Sarana</span>
+          </button>
+        </div>
+
+        <div class="farm-product-card">
+          <div class="farm-badge-row">
+            <span class="badge badge-farm">Kemitraan B2B</span>
+            <span style="color: #b45309; font-weight: 700; font-size: 0.85rem;">Buka Waitlist Kerjasama</span>
+          </div>
+          <h4 class="farm-title">Kontrak Suplai Restoran & Katering</h4>
+          <p class="farm-desc">Penjajakan kerja sama awal bagi pelaku usaha kuliner untuk mengamankan kuota suplai rutin sebelum masa panen komersial resmi dimulai.</p>
+          <div style="margin-bottom: 1.5rem;">
+            <span style="font-size: 1.35rem; font-weight: 800; color: var(--text-primary);">Kerjasama Segera</span>
+            <span style="font-size: 0.82rem; color: var(--text-muted);"> / Buka Pendaftaran Minat</span>
+          </div>
+          <button class="btn btn-farm btn-open-inquiry" data-division="farm" style="width: 100%;">
+            <span>Daftar Minat Kerjasama (Segera)</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= WHY NARINDE GROUP ================= -->
+  <section class="section" id="why-us" style="background-color: var(--bg-surface-alt); border-top: 1px solid var(--border-color);">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">
+          <span class="badge badge-primary">Nilai Perusahaan</span>
+        </div>
+        <h2 class="section-title">Komitmen Profesional Narinde Group</h2>
+        <p class="section-desc">
+          Kami memadukan kemampuan manufaktur fisik, kompetensi teknologi modern, dan prinsip agribisnis berkelanjutan guna memberikan nilai terukur bagi setiap mitra.
+        </p>
+      </div>
+
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-icon" style="color: var(--corporate-navy);">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h4>Standar Kualitas Ketat</h4>
+          <p>Seluruh luaran produk dari ketiga divisi melewati verifikasi bertahap guna menjamin kesesuaian dengan spesifikasi pesanan.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon" style="color: var(--clothing-primary);">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"/><line x1="12" y1="6" x2="12" y2="8"/><line x1="12" y1="16" x2="12" y2="18"/></svg>
+          </div>
+          <h4>Transparansi Biaya</h4>
+          <p>Struktur penawaran harga disusun secara jelas dan rasional tanpa pungutan tersembunyi demi hubungan kemitraan jangka panjang.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon" style="color: var(--digital-primary);">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <h4>Ketepatan Waktu Kerja</h4>
+          <p>Komitmen penjadwalan kerja yang disiplin untuk memastikan pemenuhan target waktu penyelesaian pesanan dan proyek.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon" style="color: var(--farm-primary);">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h4>Layanan Terpadu Satu Pintu</h4>
+          <p>Kemudahan pengadaan kebutuhan seragam organisasi, sistem teknologi informasi, serta pasokan komoditas pangan dalam satu grup usaha.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TESTIMONIALS ================= -->
+  <section class="section" style="border-top: 1px solid var(--border-color);">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">
+          <span class="badge badge-primary">Referensi Kemitraan</span>
+        </div>
+        <h2 class="section-title">Ulasan Mitra & Pelanggan</h2>
+        <p class="section-desc">Kepercayaan mitra kerja adalah landasan dedikasi kami di setiap divisi operasional.</p>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">
+            "Pemesanan 22 pcs kaos angkatan di Narinde Clothing terlaksana dengan sangat rapi. Bahan Cotton Combed 30s adem dan sablon plastisolnya tebal presisi. Pengiriman tepat waktu dengan bonus kelengkapan yang bermanfaat."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background-color: var(--corporate-navy);">SR</div>
+            <div class="author-info">
+              <h6>Perwakilan SMA Negeri 1 Rancaekek</h6>
+              <span>Mitra Narinde Clothing (Kaos Komunitas)</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">
+            "Pemeliharaan server dan dukungan cloud dari Narinde Digital sangat responsif. Sistem basis data kami berjalan stabil dengan pemantauan rutin, memudahkan kelancaran operasional perusahaan setiap hari."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background-color: var(--digital-primary);">PD</div>
+            <div class="author-info">
+              <h6>Tim Operasional PT Diesel</h6>
+              <span>Mitra Narinde Digital (Cloud Support)</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">
+            "Fasilitas greenhouse modern yang dipersiapkan Narinde Farm sangat higienis dan terstandarisasi. Kami sudah mendaftar antrean kemitraan untuk suplai sayuran hidroponik begitu masa panen perdana tiba."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background-color: var(--farm-primary);">RK</div>
+            <div class="author-info">
+              <h6>Manajemen Usaha Kuliner</h6>
+              <span>Mitra Antrean Kerjasama Narinde Farm</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FAQ SECTION ================= -->
+  <section class="section" id="faq" style="background-color: var(--bg-surface-alt); border-top: 1px solid var(--border-color);">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">
+          <span class="badge badge-primary">Informasi Layanan</span>
+        </div>
+        <h2 class="section-title">Pertanyaan yang Sering Diajukan</h2>
+        <p class="section-desc">Rincian ketentuan pemesanan, teknis produksi, dan skema kerja sama bersama Narinde Group.</p>
+      </div>
+
+      <div class="faq-wrap">
+        <div class="faq-item open">
+          <button class="faq-question">
+            <span>Berapa kuantitas pemesanan minimum (MOQ) untuk pakaian di Narinde Clothing?</span>
+            <div class="faq-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </div>
+          </button>
+          <div class="faq-answer">
+            Kuantitas pemesanan minimum pakaian kustom adalah 12 pcs. Untuk pemesanan dalam jumlah 50, 100, hingga 200 pcs ke atas, kami memberikan potongan harga berjenjang (volume discount) hingga 15% serta kelengkapan merchandise pendukung.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Apakah tim Narinde Clothing dapat membantu persiapan desain dan visual mock-up?</span>
+            <div class="faq-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </div>
+          </button>
+          <div class="faq-answer">
+            Ya. Kami menyediakan layanan konsultasi desain dan perapian mock-up sebelum masuk tahap pemotongan kain dan sablon, memastikan tata letak dan ukuran cetak sesuai ekspektasi pemesan.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Berapa estimasi waktu penyelesaian proyek perangkat lunak di Narinde Digital?</span>
+            <div class="faq-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </div>
+          </button>
+          <div class="faq-answer">
+            Pembuatan website profil atau landing page membutuhkan waktu berkisar antara 3 hingga 7 hari kerja setelah materi konten lengkap. Untuk aplikasi AppSheet kustom atau integrasi basis data spreadsheet, estimasi pengerjaan berkisar antara 1 hingga 2 minggu sesuai ruang lingkup modul.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Apakah Narinde Digital dapat membuat aplikasi AppSheet dan sistem berbasis Spreadsheet?</span>
+            <div class="faq-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </div>
+          </button>
+          <div class="faq-answer">
+            Bisa sekali! Kami memiliki keahlian khusus membangun aplikasi operasional menggunakan Google AppSheet dan sistem terintegrasi Google Sheets dengan biaya mulai dari Rp 500.000. Solusi ini sangat efektif untuk pencatatan stok gudang, absensi karyawan, penagihan pelanggan, dan pelacakan order penjualan yang dapat diakses langsung oleh staf lapangan dari smartphone (Android & iOS) secara realtime tanpa biaya server mahal.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Kapan produk hasil tani Narinde Farm mulai dijual dan bagaimana cara kerjasamanya?</span>
+            <div class="faq-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </div>
+          </button>
+          <div class="faq-answer">
+            Saat ini Narinde Farm masih dalam tahap persiapan fasilitas greenhouse dan siklus tanam perdana (belum mulai menjual secara komersial). Namun, kami sudah membuka pendaftaran minat kerja sama (waitlist) bagi restoran, hotel, atau katering yang ingin mengamankan kuota suplai sayuran hidroponik dengan harga khusus saat panen perdana tiba.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Bagaimana ketentuan termin pembayaran yang berlaku di Narinde Group?</span>
+            <div class="faq-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </div>
+          </button>
+          <div class="faq-answer">
+            Kami menerapkan skema pembayaran resmi dan transparan, umumnya melalui sistem Down Payment (DP) 50% saat surat pesanan/proyek disepakati, dan pelunasan 50% setelah proses verifikasi mutu selesai sebelum pengiriman atau serah terima akhir.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FINAL CTA ================= -->
+  <section class="section" style="padding-bottom: 5rem;">
+    <div class="container">
+      <div class="cta-banner">
+        <span class="badge" style="margin-bottom: 1.25rem;">Konsultasi Kemitraan</span>
+        <h2 class="cta-title">Siap Bermitra dengan Narinde Group?</h2>
+        <p class="cta-desc">
+          Diskusikan kebutuhan pengadaan seragam, pengembangan sistem teknologi, atau pasokan agribisnis bersama tim profesional kami.
+        </p>
+        <button class="btn btn-primary btn-open-inquiry" data-division="all" style="font-size: 1rem; padding: 0.95rem 2.25rem;" id="btnCtaBottom">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          <span>Hubungi Tim Narinde via WhatsApp</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand-logo">
+            <div class="brand-icon">N</div>
+            <span>NARINDE GROUP</span>
+          </div>
+          <p>
+            Entitas usaha terintegrasi yang menghadirkan layanan manufaktur garmen & konveksi terstandarisasi, solusi rekayasa teknologi informasi & cloud, serta budidaya agribisnis hortikultura modern.
+          </p>
+          <div class="footer-socials">
+            <a href="https://wa.me/6282385149355" target="_blank" rel="noreferrer" class="social-btn" aria-label="WhatsApp">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </a>
+            <a href="mailto:narindegroup@gmail.com" class="social-btn" aria-label="Email">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h5>Divisi Usaha</h5>
+          <ul class="footer-links">
+            <li><a href="#section-clothing">Narinde Clothing (Apparel)</a></li>
+            <li><a href="#section-digital">Narinde Digital (Teknologi)</a></li>
+            <li><a href="#section-farm">Narinde Farm (Agribisnis)</a></li>
+            <li><a href="#section-clothing">Paket Kaos (Mulai Rp 50.000)</a></li>
+            <li><a href="#section-digital">Paket Pemeliharaan Server</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Navigasi Perusahaan</h5>
+          <ul class="footer-links">
+            <li><a href="#hero">Beranda Utama</a></li>
+            <li><a href="#pillars">Profil Divisi</a></li>
+            <li><a href="#why-us">Standar Keunggulan</a></li>
+            <li><a href="#faq">Pertanyaan Umum (FAQ)</a></li>
+            <li><a href="#inquiryModal" class="btn-open-inquiry" data-division="konsolidasi">Pengajuan Kemitraan</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Kontak Resmi</h5>
+          <div class="contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Bandung, Jawa Barat, Indonesia</span>
+          </div>
+          <div class="contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <span>WhatsApp CS: +62 823-8514-9355</span>
+          </div>
+          <div class="contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <span>Email: narindegroup@gmail.com</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 Narinde Group. Seluruh Hak Cipta Dilindungi Undang-Undang.</div>
+        <div>Divisi: Narinde Clothing &bull; Narinde Digital &bull; Narinde Farm</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================= INQUIRY MODAL (WHATSAPP DISPATCH) ================= -->
+  <div class="modal-overlay" id="inquiryModal">
+    <div class="modal-content">
+      <button class="modal-close-btn" id="closeModalBtn" aria-label="Tutup Jendela Modal">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+
+      <span class="badge badge-primary" style="margin-bottom: 0.75rem;">Formulir Kontak Resmi</span>
+      <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Konsultasi Layanan Narinde Group</h3>
+      <p style="color: var(--text-muted); font-size: 0.88rem; margin-bottom: 1.5rem;">
+        Sampaikan kebutuhan pengadaan atau konsultasi proyek Anda. Tim representatif kami akan menyambungkan via WhatsApp resmi.
+      </p>
+
+      <form id="inquiryForm">
+        <div class="form-group">
+          <label class="form-label" for="inquiryName">Nama Lengkap / Perusahaan / Instansi:</label>
+          <input type="text" class="form-input" id="inquiryName" placeholder="Contoh: Budi Santoso / PT Maju Jaya" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="inquiryDivision">Divisi Usaha Tujuan:</label>
+          <select class="form-select" id="inquiryDivision" required>
+            <option value="clothing">Narinde Clothing (Konveksi & Kaos Mulai Rp 50rb)</option>
+            <option value="digital">Narinde Digital (AppSheet & Spreadsheet Mulai Rp 500rb)</option>
+            <option value="farm">Narinde Farm (Kerjasama Agribisnis - Segera Hadir)</option>
+            <option value="konsolidasi">Kemitraan Korporasi / Kerjasama Terpadu</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="inquiryNotes">Uraian Kebutuhan Singkat:</label>
+          <textarea class="form-textarea" id="inquiryNotes" rows="3" placeholder="Contoh: Pengadaan 50 pcs polo shirt seragam kantor untuk awal bulan depan..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="width: 100%; padding: 0.85rem;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <span>Kirim Pengajuan via WhatsApp</span>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- App Script -->
+  <script src="app.js"></script>
+</body>
+</html>
